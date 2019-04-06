@@ -1,0 +1,15 @@
+rocketmq:
+  profile: local
+  product: rocketmq
+  producer:
+    namesrvAddr: localhost:9876
+  consumer:
+    namesrvAddr: localhost:9876
+  ons:
+    accessKey: accessKey
+    secretKey: secretKey
+    onsAddr: http://onsaddr-internet.aliyun.com:8080/rocketmq/nsaddr4client-internal
+
+spring:
+  profiles:
+    active: local
